@@ -1,0 +1,8 @@
+[package]
+name = "seed_data"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mysql = "25.0.1"
+tokio = { version = "1.0", features = ["full"] }

@@ -1,0 +1,5 @@
+[mysqld]
+server-id=2
+relay-log=slave-relay-bin
+log-bin=slave-bin
+read-only=1
